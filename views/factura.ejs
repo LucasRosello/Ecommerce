@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Factura</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: 'Roboto';
+        }
+    </style>
+  </head>
+  <body>
+    <div style="margin-top: 15px; margin-bottom: 20px;">
+        <div class="bloque" style="display: inline-block; background-color: black; width: 42%; height: 10px;"></div>
+        <div class="titulo" style="margin-left: 18px; margin-right: 18px; display: inline-block;"><span style="font-family: 'Roboto'; font-weight: bold;">FACTURA</span></div>
+        <div class="bloque" style="display: inline-block; background-color: black; width: 43%; height: 10px;"></div>
+    </div>
+    <p style="text-align: center;"><span style="font-weight: bold">FECHA:</span> 22/3/19 <span style="font-weight: bold">- NÚMERO:</span> 342423432523523</p>
+    <hr>
+    <div style="font-size: 12px; padding-top:20px;">
+        <div style="display: inline-block; width:34%;"></div>
+        <div style="display: inline-block; width:33%;">
+            <span style="font-weight: bold; margin-bottom: 20px;">EJEMPLO EMPRESA SRL:</span><br>
+            <p>20-42778370-8 <br>
+            Medrano 400 <br>
+            Capital Federal <br>
+            Buenos Aires, Argentina <br>
+            (+54) 3526 8329 <br>
+            EjemploMail@Ejemplo.com </p>
+        </div>
+        <div style="display: inline-block; width:33%;">
+            <span style="font-weight: bold; margin-bottom: 20px;">CLIENTE:</span>
+            <p>20-42778370-8 <br>
+              Medrano 400 <br>
+              Capital Federal <br>
+              Buenos Aires, Argentina <br>
+              (+54) 3526 8329 <br>
+              EjemploMail@Ejemplo.com </p>
+        </div>
+    </div>
+            <h1 class="" style="text-align: center;">Muchas Gracias por tu compra</h1>
+            <p>Fecha <%= fecha %></p>
+            <p>Cantidad <%= quantity %></p>
+            <div style="text-align: center;">Author: Marc Bachmann</div>
+
+    
+  </body>
+</html>
